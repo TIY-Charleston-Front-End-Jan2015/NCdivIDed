@@ -1,5 +1,4 @@
 /**BILL MURRAYS BOX**/
-
 .box select {
   width: 100%;
   height: 30px;
@@ -8,8 +7,7 @@
   background: black;
   border: 1px solid black;
   color: white;
-  border-radius: 2%;
-}
+  border-radius: 2%; }
 
 .box {
   display: inline-block;
@@ -20,15 +18,12 @@
   transition: all .5s ease;
   cursor: pointer;
   border-radius: 10%;
-  border: 2px solid black;
-
-}
+  border: 2px solid black; }
 
 .box img {
-  border-radius: 10%;
-}
-/**NIC CAGES BOX**/
+  border-radius: 10%; }
 
+/**NIC CAGES BOX**/
 .box2 {
   display: inline-block;
   background: url(images/defaultbg.jpg);
@@ -36,9 +31,9 @@
   min-height: 200px;
   transition: all .5s ease;
   cursor: pointer;
-  border-radius: 15%;
-}
+  border-radius: 15%; }
 
 .box2 img {
-  border-radius: 10%;
-}
+  border-radius: 10%; }
+
+/*# sourceMappingURL=styles.css.map */

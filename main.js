@@ -4,9 +4,7 @@ $(document).ready(function () {
 
   //CREATING EVENTS///
 
-
   ////BILL MURRAY/////////////
-
 
   $(".box").find("select").on("change", function () {
 

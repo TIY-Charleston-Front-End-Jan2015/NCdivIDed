@@ -1,183 +1,127 @@
-  <!DOCTYPE html>
-  <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Guess Who?</title>
-    <link rel="stylesheet" href="bower_components/foundation/css/foundation.css">
-    <link rel="stylesheet" href="styles.css">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Guess Who?</title>
+  <link rel="stylesheet" href="bower_components/foundation/css/foundation.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="top-bar" data-topbar>
+    <ul class="title-area">
 
-  </head>
-  <body>
-    <div class="row">
-      <div class="large-12 columns">
-        <div class="row">
-          <div class="large-12 columns">
-            <nav class="top-bar" data-topbar>
-              <ul class="title-area">
-                <li class="name">
-                  <h1>
-                    <a href="#">
-                      Guess Who? Game
-                    </a>
-                  </h1>
-                </li>
-                <li class="toggle-topbar menu-icon"><a href="#"><span>menu</span></a></li>
-              </ul>
-              <section class="top-bar-section">
-                <ul class="right">
-                  <li class="divider"></li>
-                  <li class="has-dropdown">
-                    <a href="#">Games</a>
-                    <ul class="dropdown">
-                      <li><label><a href="https://www.google.com/">Players</a></label></li>
-                      <li><label><a href="https://www.google.com/">Musicians</a></label></li>
-                      <li><label><a href="https://www.google.com/">Teck Geeks</a></label></li>
-                        </ul>
-              </section>
-            </nav>
+      <li class="name">
+          <a href="#">
+          </a>
+      </li>
+      <li class="toggle-topbar menu-icon"><a href="#"><span>menu</span></a></li>
+    </ul>
+    <section class="top-bar-section">
+      <ul class="right">
+        <li class="divider"></li>
+          <li><a href="#">HOME</a></li>
+          <li class="divider"></li>
+          <li><a href="#">ABOUT</a></li>
+          <li class="divider"></li>
+          <li class="has-dropdown">
+          <a href="#">PLAY!</a>
+          <ul class="dropdown">
+            <li><a href="file:///Users/Rachel/Desktop/NCdividedSafe/sports.html#">Guess Who Sports</a></li>
+            <li><a href="">Guess Who Music</a></li>
+            <li><a href="">Guess Who Tech</a></li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+  </nav>
+
+<!---END OF TOP NAVBAR-->
+
+<!--HEADER IMAGE-->
+
+      <div class="row">
+        <div class="large-12 columns">
+          <p><img src="images/guesswhobanner.jpg"/></p>
+        </div>
+      </div>
+
+<!--UPPER LEFT IMAGE BELOW HEADER IMAGE-->
+
+      <div class="row">
+        <div class="large-4 columns">
+          <img src="http://placehold.it/400x300&text=[img]">
+        </div>
+
+<!--TOP SMALLER TEXT BOXES-->
+
+        <div class="large-8 columns">
+          <h4>HELLO FRIENDS</h4>
+          <div class="row">
+            <div class="large-6 columns">
+              <p>HEY THERE THIS IS A PARAGRAPH WOO HOO A PARAGRAPH. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit mollitia voluptatum vitae id libero architecto, et beatae sed maiores ex totam dolorem, reiciendis adipisci labore in voluptas, placeat optio. A!</p>
+            </div>
+            <div class="large-6 columns">
+              <p>HI RONALD THIS IS ANOTHER PARAGRAPH WE CAN PUT WELCOMING TEXT IN. BLAH BLAH BLAH. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore ex vero at, nobis obcaecati iste dolores, voluptatem, eos eius hic minus. Voluptatem ullam facilis aliquid. Quibusdam sint quod qui quasi.</p>
+            </div>
           </div>
         </div>
-        <div class="row">
-          <div class="large-4 small-12 columns">
-            <img src="images/guesswho.png">
-            <div class="hide-for-small panel">
-              <h3>header</h3>
-              <h5 class="subheader">Risus ligula, aliquam nec fermentum vitae, sollicitudin eget urna. Donec dignissim nibh fermentum odio ornare sagittis.
-              </h5>
-            </div>
-          </div>
-          <div class="large-8 columns">
-            <div class="row">
-          <!--PERSON 1-->
-              <div class="large-4 small-6 columns">
-                <div class="box">
-                  <select name="people" id="people">
-                    <option value="Default">Select Answer</option>
-                    <option value="AnswerA">Bill Murray</option>
-                    <option value="AnswerB">Johnny Appleseed Smith</option>
-                    <option value="AnswerC">John Doe</option>
-                  </select>
-                </div>
-                <div class="panel">
-                  <h5>CLUE</h5>
-                  <h6 class="subheader">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi doloremque nesciunt quod aliquid.</h6>
-                </div>
-              </div>
-              <!--PERSON 2-->
-              <div class="large-4 small-6 columns">
-                <div class="box">
-                  <select name="people" id="people">
-                    <option value="Default">Select Answer</option>
-                    <option value="AnswerA">Bill Murray</option>
-                    <option value="AnswerB">Johnny Appleseed Smith</option>
-                    <option value="AnswerC">John Doe</option>
-                  </select>
-                </div>
-                <div class="panel">
-                  <h5>CLUE</h5>
-                  <h6 class="subheader">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi doloremque nesciunt quod aliquid.</h6>
-                </div>
-              </div>
-              <!--PERSON 3-->
-              <div class="large-4 small-6 columns">
-                <div class="box">
-                  <select name="people" id="people">
-                    <option value="Default">Select Answer</option>
-                    <option value="AnswerA">Bill Murray</option>
-                    <option value="AnswerB">Johnny Appleseed Smith</option>
-                    <option value="AnswerC">John Doe</option>
-                  </select>
-                </div>
-                <div class="panel">
-                  <h5>CLUE</h5>
-                  <h6 class="subheader">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi doloremque nesciunt quod aliquid.</h6>
-                </div>
-              </div>
-              <!--PERSON 4-->
-              <div class="large-4 small-6 columns">
-                <div class="box">
-                  <select name="people" id="people">
-                    <option value="Default">Select Answer</option>
-                    <option value="AnswerA">Bill Murray</option>
-                    <option value="AnswerB">Johnny Appleseed Smith</option>
-                    <option value="AnswerC">John Doe</option>
-                  </select>
-                </div>
-                <div class="panel">
-                  <h5>CLUE</h5>
-                  <h6 class="subheader">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi doloremque nesciunt quod aliquid.</h6>
-                </div>
-              </div>
-              <!--PERSON 5-->
-              <div class="large-4 small-6 columns">
-                <div class="box">
-                  <select name="people" id="people">
-                    <option value="Default">Select Answer</option>
-                    <option value="AnswerA">Bill Murray</option>
-                    <option value="AnswerB">Johnny Appleseed Smith</option>
-                    <option value="AnswerC">John Doe</option>
-                  </select>
-                </div>
-                <div class="panel">
-                  <h5>CLUE</h5>
-                  <h6 class="subheader">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi doloremque nesciunt quod aliquid.</h6>
-                </div>
-              </div>
-              <!--PERSON 6-->
-              <div class="large-4 small-6 columns">
-                <div class="box">
-                  <select name="people" id="people">
-                    <option value="Default">Select Answer</option>
-                    <option value="AnswerA">Bill Murray</option>
-                    <option value="AnswerB">Johnny Appleseed Smith</option>
-                    <option value="AnswerC">John Doe</option>
-                  </select>
-                </div>
-                <div class="panel">
-                  <h5>CLUE</h5>
-                  <h6 class="subheader">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi doloremque nesciunt quod aliquid.</h6>
-                </div>
-              </div>
-            </div>
-            
-          </div>
-            <div class="row">
-              <div class="large-12 columns">
-                <div class="panel">
-                  <div class="row">
-                    <div class="large-2 small-6 columns">
-                      <img src="images/housedivided.jpeg">
-                    </div>
-                    <div class="large-10 small-6 columns">
-                      <strong>This Site Is Managed By<hr/></strong>
-                              Ronald Prater & Rachel Almeida
-                    </div>
+      </div>
+
+
+      <div class="row">
+        <div class="large-8 columns">
+          <h4>We need to come up with rando content to fill this shit up!</h4>
+
+          <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
+
+          <p>Pork drumstick turkey fugiat. Tri-tip elit turducken pork chop in. Swine short ribs meatball irure bacon nulla pork belly cupidatat meatloaf cow. Nulla corned beef sunt ball tip, qui bresaola enim jowl. Capicola short ribs minim salami nulla nostrud pastrami.</p>
+
+<!--LOWER RIGHT IMAGE IN BELOW HEADER IAMGE-->
+
+        </div>
+        <div class="large-4 columns">
+          <img src="http://placehold.it/400x300&text=[img]">
+        </div>
+      </div>
+
+        </div>
+          <div class="row">
+            <div class="large-12 columns">
+              <div class="panel">
+                <div class="row">
+                  <div class="large-2 small-6 columns">
+                    <img src="images/housedivided.jpeg">
+                  </div>
+                  <div class="large-10 small-6 columns">
+                    <strong>This Site Is Managed By<hr/></strong>
+                            Ronald Prater & Rachel Almeida
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <footer class="row">
-          <div class="large-12 columns"><hr/>
-            <div class="row">
-              <div class="large-6 columns">
-                <p>© NCdivIDed</p>
-              </div>
-              <div class="large-6 columns">
-                <ul class="inline-list right">
-                  <li><a href="#">Link 1</a></li>
-                  <li><a href="#">Link 2</a></li>
-                  <li><a href="#">Link 3</a></li>
-                  <li><a href="#">Link 4</a></li>
-                </ul>
-              </div>
+      </div>
+      <footer class="row">
+        <div class="large-12 columns"><hr/>
+          <div class="row">
+            <div class="large-6 columns">
+              <p>© NCdivIDed</p>
+            </div>
+            <div class="large-6 columns">
+              <ul class="inline-list right">
+                <li><a href="#">Link 1</a></li>
+                <li><a href="#">Link 2</a></li>
+                <li><a href="#">Link 3</a></li>
+                <li><a href="#">Link 4</a></li>
+              </ul>
             </div>
           </div>
-        </footer>
-      </div>
+        </div>
+      </footer>
     </div>
-  <script src="bower_components/jquery/dist/jquery.js"></script>
-  <script src="main.js"></script>
-  </body>
-  </html>
+  </div>
+<script src="bower_components/jquery/dist/jquery.js"></script>
+<script src="main.js"></script>
+</body>
+</html>

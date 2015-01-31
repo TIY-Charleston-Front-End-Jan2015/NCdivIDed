@@ -24,6 +24,20 @@
 
   },
 
+  {
+
+    name: Marshawn Lynch
+    bio: an American football running back for the Seattle Seahawks of the National Football League (NFL). He is nicknamed Beast Mode for his aggressive running style and penchant for breaking tackles.
+    
+  },
+
+  {
+
+    name: Mia Hamm
+    bio:a retired American professional soccer player. Hamm played many years as a forward for the United States womens national soccer team and was a founding member of the Washington Freedom.
+
+  },
+
  ]
 
   var musicPage = [
@@ -79,5 +93,5 @@
     bio: an English computer scientist, best known as the inventor of the World Wide Web. He made a proposal for an information management system in March 1989,[ and he implemented the first successful communication between a Hypertext Transfer Protocol (HTTP) client and server via the Internet sometime around mid-November of that same year,
 
   },
-  
+
   ]

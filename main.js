@@ -5,6 +5,23 @@ $(document).ready(function () {
   //CREATING EVENTS///
 
   //Michael Jordan//
+  $('h1').on('click',function(){
+
+    if($('article').hasClass('shrink')){
+      $('h1')
+      .text('x')
+      .css('color','rgb(200,200,200)')
+      .attr('title',"click to close");
+    }else{
+     $('h1')
+     .text('Stuck? Read their bio.')
+     .css('color','rgb(66,66,66)')
+     .attr('article',"click to open infoBox");
+    }
+
+    $('article').toggleClass('shrink');
+  });
+
 
   $(".box1").find("select").on("change", function () {
 
@@ -111,6 +128,107 @@ $(".box6").find("select").on("change", function () {
 }
 });
 
+
+//MUSIC///
+
+
+
+$(".boxA").find("select").on("change", function () {
+
+  if ($(this).val() === "AnswerA") {
+
+    $(this).closest(".boxA").css("background", "url(images/guessagain.jpg)");
+
+  }
+
+  else if ($(this).val() === "AnswerB") {
+
+    $(this).closest(".boxA").css("background", "url(images/hankw.jpeg)");
+
+  }
+  else if ($(this).val() === "AnswerC") {
+
+    $(this).closest(".boxA").css("background", "url(images/guessagain.jpg)");
+
+  }
+  else { $(this).closest(".boxA").css("background", "url(images/defaultbg.jpg)");
+
+}
+
+});
+
+
+
+$(".boxB").find("select").on("change", function () {
+
+  if ($(this).val() === "AnswerA") {
+
+    $(this).closest(".boxB").css("background", "url(images/jmoore.jpeg)");
+
+  }
+
+  else if ($(this).val() === "AnswerB") {
+
+    $(this).closest(".boxB").css("background", "url(images/guessagain.jpg)");
+
+  }
+  else if ($(this).val() === "AnswerC") {
+
+    $(this).closest(".boxB").css("background", "url(images/guessagain.jpg)");
+
+  }
+  else { $(this).closest(".boxB").css("background", "url(images/defaultbg.jpg)");
+
+}
+
+});
+
+$(".boxC").find("select").on("change", function () {
+
+  if ($(this).val() === "AnswerA") {
+
+    $(this).closest(".boxC").css("background", "url(images/avett.jpg)");
+
+  }
+
+  else if ($(this).val() === "AnswerB") {
+
+    $(this).closest(".boxC").css("background", "url(images/guessagain.jpg)");
+
+  }
+  else if ($(this).val() === "AnswerC") {
+
+    $(this).closest(".boxC").css("background", "url(images/guessagain.jpg)");
+
+  }
+  else { $(this).closest(".boxC").css("background", "url(images/defaultbg.jpg)");
+
+}
+
+});
+$(".boxD").find("select").on("change", function () {
+
+  if ($(this).val() === "AnswerA") {
+
+    $(this).closest(".boxD").css("background", "url(images/guessagain.jpg)");
+
+  }
+
+  else if ($(this).val() === "AnswerB") {
+
+    $(this).closest(".boxD").css("background", "url(images/guessagain.jpg)");
+
+  }
+  else if ($(this).val() === "AnswerC") {
+
+    $(this).closest(".boxD").css("background", "url(images/beyonce.jpg)");
+
+  }
+  else { $(this).closest(".boxD").css("background", "url(images/defaultbg.jpg)");
+
+}
+
+});
 //CLOSES THE JAVASCRIPT///
 
 });
